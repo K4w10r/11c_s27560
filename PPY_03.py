@@ -1,4 +1,5 @@
 import math
+import square_generator
 # task 1
 
 list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -36,7 +37,7 @@ library_list = [math.pow(i, 2) for i in list1]
 print("task4: ", library_list)
 
 # task 5
-
+"""
 class MyException(Exception):
     pass
 
@@ -46,8 +47,11 @@ class SquareGenerator:
         if start < end:
             raise MyException("start should be greater than end")
         return squared(start, end)
+"""
 
-
-squared_generator = SquareGenerator()
+squared_generator = square_generator.SquareGenerator()
 print("task5: ", squared_generator.sq_squared(3, 1))
+
+
+# task 6
 
