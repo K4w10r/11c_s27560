@@ -16,4 +16,15 @@ def squared(start, end):
 print("task2: ", squared(1, 10))
 
 
+# task 3
+
+class MyClass:
+    def class_squared(self, start, end):
+        res = []
+        for i in range(start, end + 1):
+            res.append(i ** 2)
+        return res
+
+my_class = MyClass()
+print("task3: ", my_class.class_squared(1, 10))
 
