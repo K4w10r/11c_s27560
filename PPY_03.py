@@ -1,5 +1,5 @@
 import math
-import square_generator
+import square_generator.square_generator
 # task 1
 
 list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -49,7 +49,7 @@ class SquareGenerator:
         return squared(start, end)
 """
 
-squared_generator = square_generator.SquareGenerator()
+squared_generator = square_generator.square_generator.SquareGenerator()
 print("task5: ", squared_generator.sq_squared(3, 1))
 
 
