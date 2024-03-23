@@ -1,9 +1,11 @@
+import math
 # task 1
+
 list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 squared_list = [i*i for i in list1]
 print(list1)
-print(squared_list)
+print("Task 1", squared_list)
 
 # task 2
 
@@ -27,4 +29,9 @@ class MyClass:
 
 my_class = MyClass()
 print("task3: ", my_class.class_squared(1, 10))
+
+# task 4
+
+library_list = [math.pow(i, 2) for i in list1]
+print(library_list)
 
