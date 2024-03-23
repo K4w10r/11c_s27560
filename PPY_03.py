@@ -44,7 +44,7 @@ class MyException(Exception):
 
 class SquareGenerator:
     def sq_squared(self, start, end):
-        if start < end:
+        if start > end:
             raise MyException("start should be greater than end")
         return squared(start, end)
 """
@@ -62,9 +62,16 @@ class CubicGenerator(square_generator.square_generator.SquareGenerator):
     def cube(self, start, end):
         return [i ** 3 for i in range(start, end + 1)]
 
+    def sq_squared(self, start, end):
+        if start > end:
+            raise Exception("start should be greater than end")
+        return [i ** 2 for i in range(start, end + 1)]
+
 cubic_generator = CubicGenerator()
 
 print("task8: ", cubic_generator.cube(1, 10))
 
+# task 9
 
+print("task9: ", cubic_generator.sq_squared(3, 1))
 
