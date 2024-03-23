@@ -55,3 +55,16 @@ print("task5: ", squared_generator.sq_squared(3, 1))
 
 # task 6
 
+# task 7
+
+# task 8
+class CubicGenerator(square_generator.square_generator.SquareGenerator):
+    def cube(self, start, end):
+        return [i ** 3 for i in range(start, end + 1)]
+
+cubic_generator = CubicGenerator()
+
+print("task8: ", cubic_generator.cube(1, 10))
+
+
+
