@@ -73,7 +73,9 @@ print("task8: ", cubic_generator.cube(1, 10))
 
 # task 9
 
+#print("task9: ", cubic_generator.sq_squared(3, 1))
 
+# task 10
 
 
 
