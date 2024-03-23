@@ -50,7 +50,7 @@ class SquareGenerator:
 """
 
 squared_generator = square_generator.square_generator.SquareGenerator()
-print("task5: ", squared_generator.sq_squared(3, 1))
+#print("task5: ", squared_generator.sq_squared(3, 1))
 
 
 # task 6
@@ -73,5 +73,7 @@ print("task8: ", cubic_generator.cube(1, 10))
 
 # task 9
 
-print("task9: ", cubic_generator.sq_squared(3, 1))
+
+
+
 
